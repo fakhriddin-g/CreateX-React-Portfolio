@@ -1,0 +1,33 @@
+section.course {
+    background-color: #fff;
+    padding-bottom: 180px;
+}
+
+.course-row {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Top Row */
+.top-row {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.top-row-btn button {
+    background-color: #fff;
+    color: #FF3F3A;
+    border: 1px solid #FF3F3A;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Courses Row */
+.courses-row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 150px);
+}

@@ -1,0 +1,101 @@
+.promo {
+    margin-top: 62px;
+}
+
+.promo-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Promo Play Btn */
+.promo-play {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.promo-play .promo-play-circle img {
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #FF3F3A;
+}
+
+.promo-play-circle {
+    width: 84px;
+    height: 84px;
+    background-color: #ff403a5b;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-play span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Promo Text */
+.promo-text .title {
+    font-size: 64px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 36px;
+}
+
+/* Promo Button */
+.promo-btn {
+    display: flex;
+    gap: 24px;
+}
+
+.promo-btn a, .promo-btn button {
+    font-weight: bold;
+    line-height: 52px;
+    padding: 0 40px;
+    border: 1px solid #FF3F3A;
+    color: #FF3F3A;
+    border-radius: 4px;
+}
+
+.promo-btn button {
+    cursor: pointer;
+    background-color: #FF3F3A;
+    color: #fff;
+}
+
+/* Promo Images */
+.promo-img img {
+    width: 600px;
+}
+
+/* Promo Bottom */
+.promo-bottom {
+    margin: 80px 0;
+}
+
+.promo-bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.promo-bottom ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.promo-bottom ul li span {
+    font-size: 46px;
+}

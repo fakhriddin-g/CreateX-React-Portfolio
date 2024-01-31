@@ -1,0 +1,53 @@
+.header-row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 24px;
+   font-weight: bold;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+}
+
+.navbar .logo {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.navbar .logo span {
+   font-size: 25px;
+   text-transform: uppercase;
+   margin-right: 4px;
+}
+
+.nav ul {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.user-block {
+   display: flex;
+   align-items: center;
+}
+
+.user-block button {
+   all: unset;
+   cursor: pointer;
+   line-height: 52px;
+   padding: 0 40px;
+   background: #FF3F3A;
+   color: #fff;
+   border-radius: 4px;
+   margin-right: 36px;
+}
+
+.user-block a {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}

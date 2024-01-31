@@ -1,0 +1,49 @@
+.events-card-box {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px;
+}
+
+.event-data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event-data .day {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF3F3A;
+}
+
+.event-data .data-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.event-data .data-block .month, .event-desc p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.event-data .data-block .time, .event-desc span {
+    line-height: 1.6;
+    color: #787A80;
+}
+
+.event-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.events-btn {
+    background-color: #fff;
+    color: #FF3F3A;
+    border: 1px solid #FF3F3A;
+}
