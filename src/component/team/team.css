@@ -1,0 +1,37 @@
+.team {
+    background-color: #F4F5F6;
+    padding-bottom: 180px;
+    padding-top: 160px;
+}
+
+.team-arrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: -18.5px;
+}
+
+.team-arrow .right, .team-arrow .left {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    padding: 18.5px 15px;
+    transition: 1s ease;
+    border-radius: 100%;
+}
+
+.team-arrow .right {
+    rotate: 180deg;
+}
+
+.team-arrow .right:hover, .team-arrow .left:hover {
+    background-color: #FF3F3A;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* position: relative; */
+}
+

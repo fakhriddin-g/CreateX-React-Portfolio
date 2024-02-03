@@ -1,0 +1,36 @@
+.certificate {
+    background: #fff;
+    padding-top: 37px;
+}
+
+.certificate-row {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.certificate-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate-text h1 {
+    margin-bottom: 48px;
+}
+
+.certificate-text p {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.certificate-text .certificate-org {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.certificate-img img {
+    width: 600px;
+    margin-right: -44px;
+}

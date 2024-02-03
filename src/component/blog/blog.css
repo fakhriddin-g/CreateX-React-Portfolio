@@ -1,0 +1,16 @@
+.blog {
+    background: #fff;
+    padding: 120px 0 180px;
+}
+
+.blog-row {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.blog-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

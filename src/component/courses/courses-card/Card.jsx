@@ -1,5 +1,4 @@
 import './card.css'
-import cardImg from './../../../assets/image/card-img-1.jpg'
 
 const Card = (props) => {
     return (<div className="card">
